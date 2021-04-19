@@ -1,0 +1,29 @@
+{
+  "name": "sauce-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch",
+    "e2e-test": "cucumber-js --require cucumber.conf.js --require step-definitions --format node_modules/cucumber-pretty"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "geckodriver": "^1.22.3",
+    "nightwatch-cucumber": "^9.1.3",
+    "selenium-server": "^3.141.59",
+    "node": "^15.14.0",
+    "node-modules": "^1.0.1",
+    "node.js": "0.0.1-security"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.1.0",
+    "chromedriver": "^89.0.0",
+    "cucumber-pretty": "^6.0.0",
+    "nightwatch": "^1.6.2",
+    "nightwatch-api": "^3.0.2"
+  }
+}
